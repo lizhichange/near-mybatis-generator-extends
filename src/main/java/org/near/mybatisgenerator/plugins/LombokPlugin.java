@@ -188,9 +188,12 @@ public class LombokPlugin extends PluginAdapter {
             Interface interfaze,
             TopLevelClass topLevelClass,
             IntrospectedTable introspectedTable) {
-        interfaze.addImportedType(new FullyQualifiedJavaType(
+        /**
+           interfaze.addImportedType(new FullyQualifiedJavaType(
                 "org.apache.ibatis.annotations.Mapper"));
         interfaze.addAnnotation("@Mapper");
+         */
+
         return true;
     }
 
@@ -238,8 +241,10 @@ public class LombokPlugin extends PluginAdapter {
         // Because Lombok annotation options type is almost String or boolean.
         private static String quote(String value) {
             if (Boolean.TRUE.toString().equals(value) || Boolean.FALSE.toString().equals(value))
-                // case of boolean, not passed as an array.
+            // case of boolean, not passed as an array.
+            {
                 return value;
+            }
             return value.replaceAll("[\\w]+", "\"$0\"");
         }
 
