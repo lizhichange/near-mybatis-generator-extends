@@ -32,6 +32,7 @@ import org.mybatis.generator.api.PluginAdapter;
  */
 public class UnmergeableXmlMappersPlugin extends PluginAdapter {
 
+    @Override
     public boolean validate(List<String> warnings) {
         return true;
     }
