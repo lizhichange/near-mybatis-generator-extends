@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1480490280013" />
+        <option name="name" value="default" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/Desktop/codeformatter.xml" />
+        <option name="selectedJavaProfile" value="fulihui format" />
+      </Settings>
+    </option>
+  </component>
+</project>
