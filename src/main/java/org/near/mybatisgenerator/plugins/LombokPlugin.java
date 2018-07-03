@@ -32,6 +32,7 @@ public class LombokPlugin extends PluginAdapter {
      * @param warnings list of warnings
      * @return always true
      */
+    @Override
     public boolean validate(List<String> warnings) {
         return true;
     }
