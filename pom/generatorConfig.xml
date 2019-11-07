@@ -78,8 +78,6 @@
         <table tableName="table name" mapperName="">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
-
-
     </context>
 
 </generatorConfiguration>
