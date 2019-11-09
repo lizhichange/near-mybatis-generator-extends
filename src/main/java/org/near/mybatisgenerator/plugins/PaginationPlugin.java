@@ -31,6 +31,7 @@ import java.util.List;
  */
 public class PaginationPlugin extends PluginAdapter {
 
+    @Override
     public boolean validate(List<String> list) {
         return true;
     }
